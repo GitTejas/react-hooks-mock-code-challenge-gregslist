@@ -8,7 +8,6 @@ function App() {
   function handleSearch(newSearch) {
     setSearch(newSearch)
   }
-
   return (
     <div className="app">
       <Header handleSearch={handleSearch} />
